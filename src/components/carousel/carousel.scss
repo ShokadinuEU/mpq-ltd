@@ -1,0 +1,39 @@
+.carousel-main {
+  height: 40vh;
+  width: 100%;
+  // background-image: url("./images/intro_pic.jpg");
+  background-color: #ccc;
+  // background-size: cover;
+}
+
+.carousel-background {
+  height: 40vh;
+  width: 100%;
+  background-image: url("./images/intro_pic.jpg");
+  background-color: #ccc;
+  background-size: cover;
+}
+
+.carousel-text {
+  position: absolute;
+  display: block;
+  margin-left: 20%;
+  margin-top: 18%;
+  text-align: center;
+  color: black;
+  font-weight: 800;
+  font-size: 1.6em;
+  font-family: system-ui;
+}
+
+.carousel-text > button {
+  padding: 0.5em 1em;
+  background: linear-gradient(to bottom, #495972 0%, #313d53 100%);
+  color: burlywood;
+  font-size: 0.6em;
+  text-transform: uppercase;
+  font-family: initial;
+  border-radius: 5px;
+  border: 0;
+  margin-top: 2em;
+}
