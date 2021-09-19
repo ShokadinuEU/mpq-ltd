@@ -1,5 +1,5 @@
 import React from "react";
-import "./features/features.scss";
+import "./features.scss";
 
 const features = [
   {
@@ -20,5 +20,15 @@ const features = [
 ];
 
 export default function Features() {
-  return <div></div>;
+  return (
+    <div className="feature-main">
+      {features.map((item) => (
+        <div className="feature-individual">
+          <image src={item.icon} />
+          <h3>{item.title}</h3>
+          <p>{item.info}</p>
+        </div>
+      ))}
+    </div>
+  );
 }
