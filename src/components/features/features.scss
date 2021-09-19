@@ -1,12 +1,13 @@
 .feature-main {
-  height: 75vh;
+  // height: 95vh;
   width: 100%;
   background-color: #ccc;
   padding-top: 0.7em;
+  padding-bottom: 1.5em;
 }
 
 .feature-individual {
-  height: 20vh;
+  height: 30vh;
   background-color: #313d53;
   width: 90%;
   text-align: center;
@@ -15,4 +16,14 @@
   padding-top: 1em;
   color: white;
   font-family: sans-serif;
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 3em;
+}
+
+.feature-individual > p {
+  color: grey;
 }
