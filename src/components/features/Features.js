@@ -3,17 +3,17 @@ import "./features.scss";
 
 const features = [
   {
-    icon: "fan",
+    icon: "./images/wide-exp.png",
     title: "Wide Experience",
     info: "A team of over 10 years experience",
   },
   {
-    icon: "checks",
+    icon: "./images/accurate.png",
     title: "Accurate Estimations",
     info: "Accurate estimations at a competitive prices",
   },
   {
-    icon: "labour",
+    icon: "./images/100-equip.png",
     title: "100% Equipped",
     info: "With the latest in the protection and safety for all",
   },
