@@ -38,6 +38,7 @@ export default function Features() {
         width="170"
         height="155"
       />
+      <h3>Welcome to MPL UK Ltd</h3>
     </div>
   );
 }
