@@ -1,0 +1,30 @@
+.infoGen-main {
+  width: 100%;
+  background-color: #1a2332;
+  padding-top: 0.7em;
+  padding-bottom: 1.5em;
+  padding: 2em;
+}
+
+.infoGen-main > h3 {
+  color: white;
+  padding-bottom: 1em;
+  font-size: 1.3em;
+}
+
+.infoGen-main > p {
+  color: gray;
+}
+
+.infoGen-main > button {
+  padding: 0.5em 1em;
+  background: linear-gradient(to bottom, #495972 0%, #313d53 100%);
+  color: burlywood;
+  font-size: 0.6em;
+  text-transform: uppercase;
+  font-family: initial;
+  border-radius: 5px;
+  border: 0;
+  margin-top: 2em;
+  font-size: 1em;
+}
