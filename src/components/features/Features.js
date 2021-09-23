@@ -27,13 +27,13 @@ export default function Features() {
     <div className="feature-main">
       {features.map((item) => (
         <div className="feature-individual">
-          <img src={item.icon1} alt={item.title} width="70" height="55" />
+          <img src={item.icon} alt={item.title} width="70" height="55" />
           <h3>{item.title}</h3>
           <p>{item.info}</p>
         </div>
       ))}
       <img
-        src="images/exp-duct.png"
+        src="./assets/images/exp-duct.png"
         alt="ductwork experience"
         width="170"
         height="155"
