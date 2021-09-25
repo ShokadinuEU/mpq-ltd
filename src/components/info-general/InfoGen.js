@@ -21,7 +21,41 @@ export default function InfoGen() {
         are adhered to and managed in accordance with the most contemporary
         construction regulations.
       </p>
-      <button>Our Services</button>
+      <h2>MPQ big logo</h2>
+      <h3>
+        At MPQ Services our team are competent in the safe systems of work
+        practices
+      </h3>
+      <p>
+        At MPQ Services we look at every work environment from a safety point of
+        view, assessing the risks involved and implementing a safe system of
+        work to suit; through means of method statements, risk assessments and
+        providing our personnel with the correct equipment to perform their
+        duties as well as the correct level of competency and specific training.
+      </p>
+      <h3>Training</h3>
+      <p>
+        At MPQ Services we look at every work environment from a safety point of
+        view, assessing the risks involved and implementing a safe system of
+        work to suit; through means of method statements, risk assessments and
+        providing our personnel with the correct equipment to perform their
+        duties as well as the correct level of competency and specific training.
+      </p>
+      <h3>Suppliers</h3>
+      <p>
+        At MPQ Services we look at every work environment from a safety point of
+        view, assessing the risks involved and implementing a safe system of
+        work to suit; through means of method statements, risk assessments and
+        providing our personnel with the correct equipment to perform their
+        duties as well as the correct level of competency and specific training.
+      </p>
+      <h3>Recent Projects</h3>
+      <p>
+        At MPQ Services UK Limited we can undertake a wide range of projects
+        from small fit out refurbishment to large airside installations. We can
+        accommodate our client’s requirements and adjust our company targets to
+        suit each and every project on an individual basis.
+      </p>
     </div>
   );
 }
