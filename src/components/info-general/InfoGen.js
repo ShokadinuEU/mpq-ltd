@@ -75,7 +75,7 @@ export default function InfoGen() {
         suit each and every project on an individual basis.
       </p>
       <img
-        src="./assets/images/projects_1.jpg"
+        src="./assets/images/projects-1.jpg"
         alt="ductwork specialist"
         width="170"
         height="155"

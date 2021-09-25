@@ -8,7 +8,6 @@ export default function Carousel() {
         <p>
           Specialist Ventilation <br /> & <br /> Ductwork Contractor
         </p>
-        <button>Our Services</button>
       </div>
       <div className="carousel-background"></div>
     </div>
