@@ -33,6 +33,12 @@ export default function InfoGen() {
         providing our personnel with the correct equipment to perform their
         duties as well as the correct level of competency and specific training.
       </p>
+      <img
+        src="./assets/images/safety-systems.jpg"
+        alt="ductwork specialist"
+        width="170"
+        height="155"
+      />
       <h3>Training</h3>
       <p>
         At MPQ Services we look at every work environment from a safety point of
@@ -41,6 +47,12 @@ export default function InfoGen() {
         providing our personnel with the correct equipment to perform their
         duties as well as the correct level of competency and specific training.
       </p>
+      <img
+        src="./assets/images/training.jpg"
+        alt="ductwork specialist"
+        width="170"
+        height="155"
+      />
       <h3>Suppliers</h3>
       <p>
         At MPQ Services we look at every work environment from a safety point of
@@ -49,6 +61,12 @@ export default function InfoGen() {
         providing our personnel with the correct equipment to perform their
         duties as well as the correct level of competency and specific training.
       </p>
+      <img
+        src="./assets/images/supplier.jpg"
+        alt="ductwork specialist"
+        width="170"
+        height="155"
+      />
       <h3>Recent Projects</h3>
       <p>
         At MPQ Services UK Limited we can undertake a wide range of projects
@@ -56,6 +74,12 @@ export default function InfoGen() {
         accommodate our client’s requirements and adjust our company targets to
         suit each and every project on an individual basis.
       </p>
+      <img
+        src="./assets/images/projects_1.jpg"
+        alt="ductwork specialist"
+        width="170"
+        height="155"
+      />
     </div>
   );
 }
