@@ -6,6 +6,11 @@
   padding: 2em;
 }
 
+.infoGen-main > h2 {
+  color: rgb(231, 203, 203);
+  padding-top: 1em;
+}
+
 .infoGen-main > h3 {
   color: white;
   padding-bottom: 1em;
@@ -13,16 +18,31 @@
   font-size: 1.3em;
 }
 
-.infoGen-main > h2 {
-  color: rgb(231, 203, 203);
-  padding-top: 1em;
-}
-
 .infoGen-main > p {
   color: gray;
 }
 
 .infoGen-main > img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.infoGen-main > div > h3 {
+  color: white;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  font-size: 1.3em;
+}
+
+.infoGen-main > div > p {
+  color: gray;
+}
+
+.infoGen-main > div > img {
   width: 100%;
   height: auto;
   margin: 0 auto;

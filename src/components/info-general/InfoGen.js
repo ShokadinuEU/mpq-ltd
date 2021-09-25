@@ -1,6 +1,29 @@
 import React from "react";
 import "./info-gen.scss";
 
+const infoGenData = [
+  {
+    h3: "At MPQ Services our team are competent in the safe systems of work practices",
+    p: "At MPQ Services we look at every work environment from a safety point of view, assessing the risks involved and implementing a safe system of work to suit; through means of method statements, risk assessments and providing our personnel with the correct equipment to perform their duties as well as the correct level of competency and specific training.",
+    img: "./assets/images/safety-systems.jpg",
+  },
+  {
+    h3: "Training",
+    p: "At MPQ Services we look at every work environment from a safety point of view, assessing the risks involved and implementing a safe system of work to suit; through means of method statements, risk assessments and providing our personnel with the correct equipment to perform their duties as well as the correct level of competency and specific training.",
+    img: "./assets/images/training.jpg",
+  },
+  {
+    h3: "Suppliers",
+    p: "At MPQ Services we look at every work environment from a safety point of view, assessing the risks involved and implementing a safe system of work to suit; through means of method statements, risk assessments and providing our personnel with the correct equipment to perform their duties as well as the correct level of competency and specific training.",
+    img: "./assets/images/supplier.jpg",
+  },
+  {
+    h3: "Recent Projects",
+    p: "At MPQ Services UK Limited we can undertake a wide range of projects from small fit out refurbishment to large airside installations. We can accommodate our client’s requirements and adjust our company targets to suit each and every project on an individual basis.",
+    img: "./assets/images/projects-1.jpg",
+  },
+];
+
 export default function InfoGen() {
   return (
     <div className="infoGen-main">
@@ -22,64 +45,18 @@ export default function InfoGen() {
         construction regulations.
       </p>
       <h2>MPQ big logo</h2>
-      <h3>
-        At MPQ Services our team are competent in the safe systems of work
-        practices
-      </h3>
-      <p>
-        At MPQ Services we look at every work environment from a safety point of
-        view, assessing the risks involved and implementing a safe system of
-        work to suit; through means of method statements, risk assessments and
-        providing our personnel with the correct equipment to perform their
-        duties as well as the correct level of competency and specific training.
-      </p>
-      <img
-        src="./assets/images/safety-systems.jpg"
-        alt="ductwork specialist"
-        width="170"
-        height="155"
-      />
-      <h3>Training</h3>
-      <p>
-        At MPQ Services we look at every work environment from a safety point of
-        view, assessing the risks involved and implementing a safe system of
-        work to suit; through means of method statements, risk assessments and
-        providing our personnel with the correct equipment to perform their
-        duties as well as the correct level of competency and specific training.
-      </p>
-      <img
-        src="./assets/images/training.jpg"
-        alt="ductwork specialist"
-        width="170"
-        height="155"
-      />
-      <h3>Suppliers</h3>
-      <p>
-        At MPQ Services we look at every work environment from a safety point of
-        view, assessing the risks involved and implementing a safe system of
-        work to suit; through means of method statements, risk assessments and
-        providing our personnel with the correct equipment to perform their
-        duties as well as the correct level of competency and specific training.
-      </p>
-      <img
-        src="./assets/images/supplier.jpg"
-        alt="ductwork specialist"
-        width="170"
-        height="155"
-      />
-      <h3>Recent Projects</h3>
-      <p>
-        At MPQ Services UK Limited we can undertake a wide range of projects
-        from small fit out refurbishment to large airside installations. We can
-        accommodate our client’s requirements and adjust our company targets to
-        suit each and every project on an individual basis.
-      </p>
-      <img
-        src="./assets/images/projects-1.jpg"
-        alt="ductwork specialist"
-        width="170"
-        height="155"
-      />
+      {infoGenData.map((item) => (
+        <div>
+          <h3>{item.h3}</h3>
+          <p>{item.p}</p>
+          <img
+            src={item.img}
+            alt="ductwork specialist"
+            width="170"
+            height="155"
+          />
+        </div>
+      ))}
     </div>
   );
 }
