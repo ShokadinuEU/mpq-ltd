@@ -37,13 +37,12 @@ export default function Contact() {
       <h3>Contact Us</h3>
       <p>
         MPQ Services UK Ltd <br />
-        Unit 4, Seax Way <br />
-        Southfields Industrial Park <br />
+        3, Derrick Gardens <br />
         London, Essex <br />
-        SS15 6SW
+        SE7 7TA
       </p>
       <p>Phone: 01277 81198</p>
-      <p>Email: info@mpqservices.co.uk</p>
+      <p>Email: powermantrust@gmail.com</p>
       <h3>Opening Hours</h3>
       <p>
         Mon - Fri: 8:00am - 17:00pm <br />
