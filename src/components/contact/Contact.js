@@ -1,6 +1,13 @@
 import React from "react";
 import "./contact.scss";
 
+const companies = [
+  {
+    name: "Mala",
+    img: "./assets/images/mala.png",
+  },
+];
+
 export default function Contact() {
   return (
     <div className="contact-main">
@@ -19,6 +26,7 @@ export default function Contact() {
         Mon - Fri: 8:00am - 17:00pm <br />
         Sat & Sun: Closed
       </p>
+      <div className="contact-brands"></div>
     </div>
   );
 }
