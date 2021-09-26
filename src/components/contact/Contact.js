@@ -41,7 +41,7 @@ export default function Contact() {
         London, Essex <br />
         SE7 7TA
       </p>
-      <p>Phone: 01277 81198</p>
+      <p>Phone: 07757 726095</p>
       <p>Email: powermantrust@gmail.com</p>
       <h3>Opening Hours</h3>
       <p>
