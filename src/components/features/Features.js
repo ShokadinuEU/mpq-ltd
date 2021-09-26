@@ -25,8 +25,8 @@ const features = [
 export default function Features() {
   return (
     <div className="feature-main">
-      {features.map((item) => (
-        <div className="feature-individual">
+      {features.map((item, i) => (
+        <div className="feature-individual" key={i}>
           <img src={item.icon} alt={item.title} width="70" height="55" />
           <h3>{item.title}</h3>
           <p>{item.info}</p>

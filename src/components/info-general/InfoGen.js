@@ -45,8 +45,8 @@ export default function InfoGen() {
         construction regulations.
       </p>
       <h2>MPQ big logo</h2>
-      {infoGenData.map((item) => (
-        <div>
+      {infoGenData.map((item, i) => (
+        <div key={i}>
           <h3>{item.h3}</h3>
           <p>{item.p}</p>
           <img
