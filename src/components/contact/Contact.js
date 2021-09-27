@@ -46,7 +46,8 @@ export default function Contact() {
       <h3>Opening Hours</h3>
       <p>
         Mon - Fri: 8:00am - 17:00pm <br />
-        Sat & Sun: Closed
+        Sat: 10:00 am - 14:00 pm <br />
+        Sun: Closed
       </p>
     </div>
   );
