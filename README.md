@@ -1,6 +1,6 @@
 ## MPQ Services LTD
 
-### This project have been made using React as JavaScript library
+### This project have been made using React as JavaScript library alongside with HTML5 and CSS3
 
 ### Other technologies that have been used alongside with React as follows:
 
