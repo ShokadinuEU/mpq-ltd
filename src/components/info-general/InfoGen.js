@@ -27,6 +27,13 @@ const infoGenData = [
 export default function InfoGen() {
   return (
     <div className="infoGen-main">
+      <img
+        src="./assets/images/exp-duct.png"
+        alt="ductwork experience"
+        width="170"
+        height="155"
+      />
+      <h3 className="gray-welcome">Welcome to MPQ UK Ltd</h3>
       <h3>
         MPQ Services operate as specialist ventilation and ductwork contractors
       </h3>
