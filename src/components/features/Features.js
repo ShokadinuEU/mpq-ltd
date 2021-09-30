@@ -32,13 +32,6 @@ export default function Features() {
           <p>{item.info}</p>
         </div>
       ))}
-      {/* <img
-        src="./assets/images/exp-duct.png"
-        alt="ductwork experience"
-        width="170"
-        height="155"
-      />
-      <h3>Welcome to MPQ UK Ltd</h3> */}
     </div>
   );
 }
