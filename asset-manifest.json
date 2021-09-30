@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/mpq-ltd/static/css/main.586439c7.chunk.css",
-    "main.js": "/mpq-ltd/static/js/main.db297bb5.chunk.js",
-    "main.js.map": "/mpq-ltd/static/js/main.db297bb5.chunk.js.map",
+    "main.css": "/mpq-ltd/static/css/main.9f8efbee.chunk.css",
+    "main.js": "/mpq-ltd/static/js/main.ab0fa1f6.chunk.js",
+    "main.js.map": "/mpq-ltd/static/js/main.ab0fa1f6.chunk.js.map",
     "runtime-main.js": "/mpq-ltd/static/js/runtime-main.72cd7045.js",
     "runtime-main.js.map": "/mpq-ltd/static/js/runtime-main.72cd7045.js.map",
     "static/js/2.d6e6adad.chunk.js": "/mpq-ltd/static/js/2.d6e6adad.chunk.js",
     "static/js/2.d6e6adad.chunk.js.map": "/mpq-ltd/static/js/2.d6e6adad.chunk.js.map",
     "index.html": "/mpq-ltd/index.html",
-    "static/css/main.586439c7.chunk.css.map": "/mpq-ltd/static/css/main.586439c7.chunk.css.map",
+    "static/css/main.9f8efbee.chunk.css.map": "/mpq-ltd/static/css/main.9f8efbee.chunk.css.map",
     "static/js/2.d6e6adad.chunk.js.LICENSE.txt": "/mpq-ltd/static/js/2.d6e6adad.chunk.js.LICENSE.txt",
     "static/media/carousel.scss": "/mpq-ltd/static/media/intro_pic.ace59050.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.72cd7045.js",
     "static/js/2.d6e6adad.chunk.js",
-    "static/css/main.586439c7.chunk.css",
-    "static/js/main.db297bb5.chunk.js"
+    "static/css/main.9f8efbee.chunk.css",
+    "static/js/main.ab0fa1f6.chunk.js"
   ]
 }
