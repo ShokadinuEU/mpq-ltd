@@ -1,4 +1,4 @@
-## MPQ Services LTD
+## MPQ Services UK LTD
 
 ### This project have been made using React as JavaScript library alongside with HTML5 and CSS3
 
