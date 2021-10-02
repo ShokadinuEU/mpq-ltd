@@ -23,6 +23,28 @@ const infoGenData = [
     img: "./assets/images/projects-1.jpg",
   },
 ];
+const companies = [
+  {
+    name: "Mala",
+    img: "./assets/images/mala.png",
+  },
+  {
+    name: "Amd",
+    img: "./assets/images/amd.png",
+  },
+  {
+    name: "Bancroft",
+    img: "./assets/images/bancroft.png",
+  },
+  {
+    name: "Farr",
+    img: "./assets/images/farr.png",
+  },
+  {
+    name: "Michel",
+    img: "./assets/images/michel-dale.png",
+  },
+];
 
 export default function InfoGen() {
   return (
@@ -64,6 +86,13 @@ export default function InfoGen() {
           />
         </div>
       ))}
+      <div className="contact-brands">
+        {companies.map((item, i) => (
+          <div key={i}>
+            <img src={item.img} alt={item.name} />{" "}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

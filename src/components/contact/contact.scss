@@ -1,8 +1,13 @@
 .contact-main {
   background-color: #313d53;
   color: #fff;
+  width: 100%;
+  justify-content: space-around;
   text-align: center;
   padding-bottom: 1em;
+  display: flex;
+  margin: 0 auto;
+  padding: 1em;
 }
 
 .contact-brands {
@@ -25,4 +30,21 @@
 
 .contact-main > p {
   margin-bottom: 1em;
+}
+
+.contact-details:first-child {
+  order: 2;
+}
+
+.contact-openings {
+  margin: 2em 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-main {
+    display: block;
+  }
+  .contact-details:first-child {
+    margin: 0 0 2em;
+  }
 }
