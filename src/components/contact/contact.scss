@@ -7,7 +7,7 @@
   padding-bottom: 1em;
   display: flex;
   margin: 0 auto;
-  padding: 1em;
+  padding: 2em 1em;
 }
 
 .contact-brands {
@@ -47,4 +47,16 @@
   .contact-details:first-child {
     margin: 0 0 2em;
   }
+}
+
+.contact-brands {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1em;
+  padding-bottom: 0.3em;
+  background-color: darkslategray;
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+  left: 0em;
 }
