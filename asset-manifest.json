@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mpq-ltd/static/css/main.cef379c1.chunk.css",
+    "main.css": "/mpq-ltd/static/css/main.90b8eb33.chunk.css",
     "main.js": "/mpq-ltd/static/js/main.8405665e.chunk.js",
     "main.js.map": "/mpq-ltd/static/js/main.8405665e.chunk.js.map",
     "runtime-main.js": "/mpq-ltd/static/js/runtime-main.72cd7045.js",
@@ -8,14 +8,14 @@
     "static/js/2.d6e6adad.chunk.js": "/mpq-ltd/static/js/2.d6e6adad.chunk.js",
     "static/js/2.d6e6adad.chunk.js.map": "/mpq-ltd/static/js/2.d6e6adad.chunk.js.map",
     "index.html": "/mpq-ltd/index.html",
-    "static/css/main.cef379c1.chunk.css.map": "/mpq-ltd/static/css/main.cef379c1.chunk.css.map",
+    "static/css/main.90b8eb33.chunk.css.map": "/mpq-ltd/static/css/main.90b8eb33.chunk.css.map",
     "static/js/2.d6e6adad.chunk.js.LICENSE.txt": "/mpq-ltd/static/js/2.d6e6adad.chunk.js.LICENSE.txt",
     "static/media/carousel.scss": "/mpq-ltd/static/media/intro_pic.ace59050.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.72cd7045.js",
     "static/js/2.d6e6adad.chunk.js",
-    "static/css/main.cef379c1.chunk.css",
+    "static/css/main.90b8eb33.chunk.css",
     "static/js/main.8405665e.chunk.js"
   ]
 }
