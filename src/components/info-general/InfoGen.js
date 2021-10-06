@@ -55,7 +55,7 @@ export default function InfoGen() {
         width="170"
         height="155"
       />
-      <h3 className="gray-welcome">Welcome to MPQ UK Ltd</h3>
+      <h3 className="gray-welcome">Welcome to MPQ(ManPowerQuality) UK Ltd</h3>
       <h3>
         MPQ Services operate as specialist ventilation and ductwork contractors
       </h3>
