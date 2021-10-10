@@ -21,10 +21,24 @@ export default function MenuButton() {
   };
   return (
     <React.Fragment>
-      <Box sx={{ display: "flex", alignItems: "center", textAlign: "center" }}>
+      <Box
+        sx={{
+          display: "flex",
+          alignItems: "center",
+          textAlign: "center",
+          color: "white",
+          bgcolor: "#1a2332",
+        }}
+      >
         <Tooltip title="Account settings">
-          <IconButton onClick={handleClick} size="small" sx={{ ml: 2 }}>
-            <Avatar sx={{ width: 32, height: 32 }}>
+          <IconButton
+            onClick={handleClick}
+            size="small"
+            sx={{ ml: 2, color: "white", bgcolor: "#1a2332" }}
+          >
+            <Avatar
+              sx={{ width: 32, height: 32, color: "white", bgcolor: "#1a2332" }}
+            >
               <MenuIcon />
             </Avatar>
           </IconButton>
@@ -38,6 +52,8 @@ export default function MenuButton() {
         PaperProps={{
           elevation: 0,
           sx: {
+            color: "white",
+            bgcolor: "#313d53",
             overflow: "visible",
             filter: "drop-shadow(0px 2px 8px rgba(0,0,0,0.32))",
             mt: 1.5,
@@ -55,22 +71,29 @@ export default function MenuButton() {
               right: 17,
               width: 12,
               height: 12,
-              bgcolor: "background.paper",
               transform: "translateY(-50%) rotate(45deg)",
               zIndex: 0,
+              color: "white",
+              bgcolor: "#313d53",
             },
           },
         }}
         transformOrigin={{ horizontal: "right", vertical: "top" }}
         anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
       >
-        <MenuItem>Home</MenuItem>
-        <MenuItem>Services</MenuItem>
-        <MenuItem>Projects</MenuItem>
-        <MenuItem>Health and Safety</MenuItem>
-        <Divider />
-        <MenuItem>
-          <ListItemIcon>
+        <MenuItem sx={{ color: "white", bgcolor: "#313d53" }}>Home</MenuItem>
+        <MenuItem sx={{ color: "white", bgcolor: "#313d53" }}>
+          Services
+        </MenuItem>
+        <MenuItem sx={{ color: "white", bgcolor: "#313d53" }}>
+          Projects
+        </MenuItem>
+        <MenuItem sx={{ color: "white", bgcolor: "#313d53" }}>
+          Health and Safety
+        </MenuItem>
+        <Divider sx={{ bgcolor: "white" }} />
+        <MenuItem sx={{ color: "white", bgcolor: "#313d53" }}>
+          <ListItemIcon sx={{ color: "white", bgcolor: "#313d53" }}>
             <PersonAdd fontSize="small" />
           </ListItemIcon>
           Contact
