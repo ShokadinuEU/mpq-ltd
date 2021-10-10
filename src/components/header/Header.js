@@ -1,10 +1,10 @@
 import * as React from "react";
+import MenuButton from "./MenuButton";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
 
 export default function DenseAppBar() {
   return (
@@ -29,7 +29,7 @@ export default function DenseAppBar() {
             aria-label="menu"
             sx={{ mr: 2 }}
           >
-            <MenuIcon />
+            <MenuButton />
           </IconButton>
         </Toolbar>
       </AppBar>
