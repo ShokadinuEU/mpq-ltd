@@ -7,3 +7,4 @@
       - sass-loader -> for a more fancy css written
       - material-ui -> for the top navbar(so far)
       - gh-pages -> for free hosting on github website :)
+      - React Router implementation
