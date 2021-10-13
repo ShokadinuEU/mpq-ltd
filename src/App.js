@@ -4,6 +4,7 @@ import Carousel from "./components/carousel/Carousel";
 import Features from "./components/features/Features";
 import InfoGen from "./components/info-general/InfoGen";
 import Contact from "./components/contact/Contact";
+import Services from "./components/Services/Services";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Features />
       <InfoGen />
       <Contact />
+      <Services />
     </div>
   );
 }
