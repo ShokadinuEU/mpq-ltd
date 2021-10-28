@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/mpq-ltd/static/css/main.90b8eb33.chunk.css",
-    "main.js": "/mpq-ltd/static/js/main.cea26a94.chunk.js",
-    "main.js.map": "/mpq-ltd/static/js/main.cea26a94.chunk.js.map",
+    "main.css": "/mpq-ltd/static/css/main.27379f47.chunk.css",
+    "main.js": "/mpq-ltd/static/js/main.94cca336.chunk.js",
+    "main.js.map": "/mpq-ltd/static/js/main.94cca336.chunk.js.map",
     "runtime-main.js": "/mpq-ltd/static/js/runtime-main.72cd7045.js",
     "runtime-main.js.map": "/mpq-ltd/static/js/runtime-main.72cd7045.js.map",
-    "static/js/2.2fb2a0b4.chunk.js": "/mpq-ltd/static/js/2.2fb2a0b4.chunk.js",
-    "static/js/2.2fb2a0b4.chunk.js.map": "/mpq-ltd/static/js/2.2fb2a0b4.chunk.js.map",
+    "static/js/2.7304797b.chunk.js": "/mpq-ltd/static/js/2.7304797b.chunk.js",
+    "static/js/2.7304797b.chunk.js.map": "/mpq-ltd/static/js/2.7304797b.chunk.js.map",
     "index.html": "/mpq-ltd/index.html",
-    "static/css/main.90b8eb33.chunk.css.map": "/mpq-ltd/static/css/main.90b8eb33.chunk.css.map",
-    "static/js/2.2fb2a0b4.chunk.js.LICENSE.txt": "/mpq-ltd/static/js/2.2fb2a0b4.chunk.js.LICENSE.txt",
+    "static/css/main.27379f47.chunk.css.map": "/mpq-ltd/static/css/main.27379f47.chunk.css.map",
+    "static/js/2.7304797b.chunk.js.LICENSE.txt": "/mpq-ltd/static/js/2.7304797b.chunk.js.LICENSE.txt",
     "static/media/carousel.scss": "/mpq-ltd/static/media/intro_pic.ace59050.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.72cd7045.js",
-    "static/js/2.2fb2a0b4.chunk.js",
-    "static/css/main.90b8eb33.chunk.css",
-    "static/js/main.cea26a94.chunk.js"
+    "static/js/2.7304797b.chunk.js",
+    "static/css/main.27379f47.chunk.css",
+    "static/js/main.94cca336.chunk.js"
   ]
 }
