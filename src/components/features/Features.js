@@ -25,6 +25,7 @@ const features = [
 export default function Features() {
   return (
     <div className="feature-main">
+      {/* maping through each item */}
       {features.map((item, i) => (
         <div className="feature-individual" key={i}>
           <img src={item.icon} alt={item.title} width="70" height="55" />

@@ -49,6 +49,7 @@ const companies = [
 export default function InfoGen() {
   return (
     <div className="infoGen-main">
+      {/* intro to general section */}
       <img
         src="./assets/images/exp-duct.png"
         alt="ductwork experience"
